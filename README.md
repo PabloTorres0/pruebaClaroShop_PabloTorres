@@ -1,7 +1,7 @@
 This is a proyect for Claro Shop coding challange.
 
 ## Step for installation
-- git clone https://github.com/PabloTorres0/pruebaClaroShop.git
+- git clone https://github.com/PabloTorres0/pruebaClaroShop_PabloTorres.git
 - npm i
 - npm run start:local:back
 - npm run start:local:front
