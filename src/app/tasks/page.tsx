@@ -79,7 +79,7 @@ const contacts: React.FC = () => {
   }
 
   const editContact = (item: ReadListTasks): void => {
-    console.log({editContact: item});
+    // console.log({editContact: item});
     setData(item)
     setModeModal(true)
     setModalOn(true)
@@ -191,7 +191,7 @@ const contacts: React.FC = () => {
                     label={item.state ? 'Completada':'Pendiente'}
                     checked={item.state}
                     onChange={(e)=>{
-                      console.log(e.target.checked, item)
+                      // console.log(e.target.checked, item)
                       void updateStatus(item)
                     }
                     }
@@ -212,7 +212,7 @@ const contacts: React.FC = () => {
                   
                   <div className='control-container edit' onClick={()=>{
                      editContact(item)
-                    console.log('Editar')
+                    // console.log('Editar')
                   }}>
                     <FaEdit size={25}/>
                   </div>

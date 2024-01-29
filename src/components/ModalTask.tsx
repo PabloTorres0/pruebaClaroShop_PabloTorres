@@ -101,7 +101,7 @@ const ModalContacts: React.FC<Props> = (props) => {
                   label="Estado"
                   defaultChecked={props.data?.state}
                   onChange={(e)=>{
-                    console.log(e.target.checked)
+                    // console.log(e.target.checked)
                     setState(e.target.checked)
                   }
                   }
